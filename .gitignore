@@ -2,3 +2,11 @@
 /01Singleton/ThreadSafeSingleton/build/
 /01Singleton/SerializationSingleton/SerializationSingleton/nbproject/private/
 /01Singleton/SerializationSingleton/SerializationSingleton/build/
+/02Fabryka/FactoryMethod/nbproject/private/
+/02Fabryka/FactoryMethod/build/
+/02Fabryka/SimpleFactory/build/
+/02Fabryka/SimpleFactory/nbproject/private/
+/02Fabryka/AbstractFactory/nbproject/private/
+/02Fabryka/AbstractFactory/build/
+/02Fabryka/ClassRegistrationFactory/nbproject/private/
+/02Fabryka/ClassRegistrationFactory/build/
