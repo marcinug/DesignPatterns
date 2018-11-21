@@ -5,17 +5,12 @@
  */
 package classregistrationfactory;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
-import java.util.HashMap;
-
 /**
  *
  * @author Marcin
  */
 public class ProductFactory {
     public static Game getGame(Class newClass){
-       
         if("classregistrationfactory.HejToMojaRyba".equals(newClass.getName())) 
             return new HejToMojaRyba();
         else if("classregistrationfactory.GraOTor".equals(newClass.getName()))
