@@ -1,0 +1,7 @@
+C:\projects\DesignPatterns\03Builder\Builder\Builder\bin\Debug\Builder.exe.config
+C:\projects\DesignPatterns\03Builder\Builder\Builder\bin\Debug\Builder.exe
+C:\projects\DesignPatterns\03Builder\Builder\Builder\bin\Debug\Builder.pdb
+C:\projects\DesignPatterns\03Builder\Builder\Builder\obj\Debug\Builder.csprojAssemblyReference.cache
+C:\projects\DesignPatterns\03Builder\Builder\Builder\obj\Debug\Builder.csproj.CoreCompileInputs.cache
+C:\projects\DesignPatterns\03Builder\Builder\Builder\obj\Debug\Builder.exe
+C:\projects\DesignPatterns\03Builder\Builder\Builder\obj\Debug\Builder.pdb
