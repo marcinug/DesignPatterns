@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package factorybetterthenbuilder.product.factory;
+package factorybetterthenbuilder.factory.product.factory;
 
-import factorybetterthenbuilder.abstractFactory.AbstractFactory;
-import factorybetterthenbuilder.product.Dlc;
-import factorybetterthenbuilder.product.Game;
-import factorybetterthenbuilder.product.dlcs.Cube;
-import factorybetterthenbuilder.product.dlcs.Foil;
-import factorybetterthenbuilder.product.dlcs.Sticker;
+import factorybetterthenbuilder.factory.abstractFactory.AbstractFactory;
+import factorybetterthenbuilder.factory.product.Dlc;
+import factorybetterthenbuilder.factory.product.Game;
+import factorybetterthenbuilder.factory.product.dlcs.Cube;
+import factorybetterthenbuilder.factory.product.dlcs.Foil;
+import factorybetterthenbuilder.factory.product.dlcs.Sticker;
 
 /**
  *

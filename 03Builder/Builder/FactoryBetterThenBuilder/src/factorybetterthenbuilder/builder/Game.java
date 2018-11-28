@@ -3,39 +3,39 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package factorybetterthenbuilder.product;
+package factorybetterthenbuilder.builder;
 
 /**
  *
  * @author Marcin
  */
-public abstract class Game {
+public class Game {
     public String productName;
     public String type;
     public String time;
     public String players;
     public String age;
+
+    public void setProductName(String productName) {
+        this.productName = productName;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+    }
+
+    public void setPlayers(String players) {
+        this.players = players;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
     
-    public String getProductName() {
-        return productName;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public String getTime() {
-        return time;
-    }
-
-    public String getPlayers() {
-        return players;
-    }
-
-    public String getAge() {
-        return age;
-    }
-
     @Override
     public String toString() {
         return "Game:" + "\n" 

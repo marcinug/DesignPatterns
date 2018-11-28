@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package factorybetterthenbuilder.product.dlcs;
+package factorybetterthenbuilder.factory.product.dlcs;
 
-import factorybetterthenbuilder.product.Dlc;
+import factorybetterthenbuilder.factory.product.Dlc;
 
 /**
  *

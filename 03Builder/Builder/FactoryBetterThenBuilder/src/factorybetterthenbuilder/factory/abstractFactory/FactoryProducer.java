@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package factorybetterthenbuilder.abstractFactory;
+package factorybetterthenbuilder.factory.abstractFactory;
 
-import factorybetterthenbuilder.product.factory.DlcFactory;
-import factorybetterthenbuilder.product.factory.GameFactory;
+import factorybetterthenbuilder.factory.product.factory.DlcFactory;
+import factorybetterthenbuilder.factory.product.factory.GameFactory;
 
 /**
  *

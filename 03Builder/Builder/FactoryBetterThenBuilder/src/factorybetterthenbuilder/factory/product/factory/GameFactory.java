@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package factorybetterthenbuilder.product.factory;
-import factorybetterthenbuilder.abstractFactory.AbstractFactory;
-import factorybetterthenbuilder.product.Dlc;
-import factorybetterthenbuilder.product.Game;
-import factorybetterthenbuilder.product.games.GraOTor;
-import factorybetterthenbuilder.product.games.HejToMojaRyba;
-import factorybetterthenbuilder.product.games.Zlodzieje;
+package factorybetterthenbuilder.factory.product.factory;
+import factorybetterthenbuilder.factory.abstractFactory.AbstractFactory;
+import factorybetterthenbuilder.factory.product.Dlc;
+import factorybetterthenbuilder.factory.product.Game;
+import factorybetterthenbuilder.factory.product.games.GraOTor;
+import factorybetterthenbuilder.factory.product.games.HejToMojaRyba;
+import factorybetterthenbuilder.factory.product.games.Zlodzieje;
 /**
  *
  * @author Marcin

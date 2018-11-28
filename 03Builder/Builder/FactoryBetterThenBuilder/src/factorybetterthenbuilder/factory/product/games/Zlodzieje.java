@@ -3,21 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package factorybetterthenbuilder.product.games;
+package factorybetterthenbuilder.factory.product.games;
 
-import factorybetterthenbuilder.product.Game;
+import factorybetterthenbuilder.factory.product.Game;
 
 /**
  *
  * @author Marcin
  */
-public class HejToMojaRyba extends Game {
+public class Zlodzieje extends Game {
     
-    public HejToMojaRyba () {
-        this.productName="HejToMojaRyba"; 
-        this.type="Gra planszowa: familijna";
+    public Zlodzieje () {
+        this.productName="Zlodzieje"; 
+        this.type="Gra karciana";
         this.time="ok. 20 minut";
-        this.players=" 2-4 osoby";
+        this.players=" 3-6 osoby";
         this.age="od 8 lat";
     }
     
