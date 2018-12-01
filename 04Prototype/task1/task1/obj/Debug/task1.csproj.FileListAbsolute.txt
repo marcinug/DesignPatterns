@@ -1,0 +1,7 @@
+C:\projects\DesignPatterns\04Prototype\task1\task1\bin\Debug\task1.exe.config
+C:\projects\DesignPatterns\04Prototype\task1\task1\bin\Debug\task1.exe
+C:\projects\DesignPatterns\04Prototype\task1\task1\bin\Debug\task1.pdb
+C:\projects\DesignPatterns\04Prototype\task1\task1\obj\Debug\task1.csprojAssemblyReference.cache
+C:\projects\DesignPatterns\04Prototype\task1\task1\obj\Debug\task1.csproj.CoreCompileInputs.cache
+C:\projects\DesignPatterns\04Prototype\task1\task1\obj\Debug\task1.exe
+C:\projects\DesignPatterns\04Prototype\task1\task1\obj\Debug\task1.pdb

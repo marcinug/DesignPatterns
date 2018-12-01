@@ -1,0 +1,7 @@
+C:\projects\DesignPatterns\04Prototype\task2\task2\bin\Debug\task2.exe.config
+C:\projects\DesignPatterns\04Prototype\task2\task2\bin\Debug\task2.exe
+C:\projects\DesignPatterns\04Prototype\task2\task2\bin\Debug\task2.pdb
+C:\projects\DesignPatterns\04Prototype\task2\task2\obj\Debug\task2.csprojAssemblyReference.cache
+C:\projects\DesignPatterns\04Prototype\task2\task2\obj\Debug\task2.csproj.CoreCompileInputs.cache
+C:\projects\DesignPatterns\04Prototype\task2\task2\obj\Debug\task2.exe
+C:\projects\DesignPatterns\04Prototype\task2\task2\obj\Debug\task2.pdb
