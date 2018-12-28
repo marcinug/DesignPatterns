@@ -1,0 +1,7 @@
+C:\projects\DesignPatterns\2018_Mokrzan_Marcin\Project\Project\bin\Debug\Project.exe.config
+C:\projects\DesignPatterns\2018_Mokrzan_Marcin\Project\Project\bin\Debug\Project.exe
+C:\projects\DesignPatterns\2018_Mokrzan_Marcin\Project\Project\bin\Debug\Project.pdb
+C:\projects\DesignPatterns\2018_Mokrzan_Marcin\Project\Project\obj\Debug\Project.csprojAssemblyReference.cache
+C:\projects\DesignPatterns\2018_Mokrzan_Marcin\Project\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
+C:\projects\DesignPatterns\2018_Mokrzan_Marcin\Project\Project\obj\Debug\Project.exe
+C:\projects\DesignPatterns\2018_Mokrzan_Marcin\Project\Project\obj\Debug\Project.pdb
