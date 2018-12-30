@@ -12,5 +12,10 @@ namespace Project
         {
             roomInstance.State = new OpenedRoom();
         }
+
+        public override string toString()
+        {
+            return "Closed";
+        }
     }
 }

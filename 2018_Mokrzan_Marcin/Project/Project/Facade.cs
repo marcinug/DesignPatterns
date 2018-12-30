@@ -59,19 +59,29 @@ namespace Project
             {
                 Player p1 = user;
                 p1.Name = user.name;
+                Player p2 = user;
+                p2.Name = user.name;
 
                 chosenRoot.AddChild(chosenRoomInstance);
-                chosenRoomInstance.AddChild(user);
+                chosenRoomInstance.AddChild(p1);
+                Console.WriteLine(chosenRoomInstance.ComponentList1.Count + " Player added: " + p1.Name);
+                //chosenRoomInstance.AddChild(p2);
+                //Console.WriteLine(chosenRoomInstance.ComponentList1.Count +  " Player added: " + p2.Name);
 
                 chosenRoot.Show();
                 chosenRoomInstance.Show();
             }
-            Console.Write("Current player: " + chosenRoomInstance.ComponentList1.Count + " max players: " + chosenRoom.Stats["num"]);
+            Console.WriteLine("Current player: " + chosenRoomInstance.ComponentList1.Count + " max players: " + chosenRoom.Stats["num"]);
+            chosenRoomInstance.Attach(new RoomObserver(chosenRoomInstance, "ROOM_OBSERVER"));
+            chosenRoomInstance.Notify();
 
             if (chosenRoomInstance.ComponentList1.Count == Int32.Parse(chosenRoom.Stats["num"]))
             {
+                //Console.Clear();
                 chosenRoomInstance.Request();
-                Console.Write("Current player: " + chosenRoomInstance.ComponentList1.Count + " max players: " + chosenRoom.Stats["num"]);
+                chosenRoomInstance.Notify();
+
+                Console.WriteLine("Current player: " + chosenRoomInstance.ComponentList1.Count + " max players: " + chosenRoom.Stats["num"]);
                 Console.Write("Room is full");
             }
         }

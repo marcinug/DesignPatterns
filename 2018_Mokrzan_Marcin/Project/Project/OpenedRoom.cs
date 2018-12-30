@@ -8,9 +8,16 @@ namespace Project
 {
     public class OpenedRoom : State
     {
+
+
         public override void Handle(RoomInstance roomInstance)
         {
             roomInstance.State = new ClosedRoom();
+        }
+
+        public override string toString()
+        {
+            return "Opened";
         }
     }
 }

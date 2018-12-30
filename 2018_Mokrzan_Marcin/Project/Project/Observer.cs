@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Project
 {
-    public abstract class State
+    public abstract class Observer
     {
-        public abstract void Handle(RoomInstance roomInstance);
-
-        public abstract string toString();
+        public abstract void Update();
     }
 }

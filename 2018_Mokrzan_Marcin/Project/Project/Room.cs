@@ -32,6 +32,7 @@ namespace Project
             Console.WriteLine("Game name: {0}", GameName);
             Console.WriteLine("Room name: {0}", Stats["name"]);
             Console.WriteLine("Number of player: {0}", Stats["num"]);
+            Console.WriteLine("\n---------------------------");
         }
     }
 }

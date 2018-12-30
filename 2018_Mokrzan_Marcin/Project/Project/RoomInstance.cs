@@ -9,12 +9,14 @@ namespace Project
 {
     public class RoomInstance : Component
     {
+        //string subjectState;
         string name;
         State state;
 
         public string Name { get => name; set => name = value; }
         public State State { get => state; set => state = value; }
         public ArrayList ComponentList1 { get => ComponentList; set => ComponentList = value; }
+        
 
         ArrayList ComponentList = new ArrayList();
         
@@ -48,7 +50,6 @@ namespace Project
 
         public void Request()
         {
-
             state.Handle(this);
         }
     }

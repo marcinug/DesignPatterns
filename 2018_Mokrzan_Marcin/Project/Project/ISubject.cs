@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Project
 {
-    public abstract class State
+    public interface ISubject
     {
-        public abstract void Handle(RoomInstance roomInstance);
+        void Attach(Observer observer);
 
-        public abstract string toString();
+        void Detach(Observer observer);
+
+        void Notify();
     }
 }

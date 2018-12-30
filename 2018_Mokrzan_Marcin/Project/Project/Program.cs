@@ -10,21 +10,17 @@ namespace Project
     {
         static void Main(string[] args)
         {
-            Account user = Account.Instance;      
+            Account user = Account.Instance; //[Singleton] utworzono instancje Gracza o nazwie " + user.name + " i id " + user.id
 
-            Console.WriteLine(user.id);
             Console.WriteLine("Welcome " + user.name + " take a seat and play!");
             ConsoleKeyInfo key;
-            //ldo
-            //{
-                Console.WriteLine("Choose game: (g - Go, c - Chess,  d - draughts)");
-                key = Console.ReadKey();
+            Console.WriteLine("Chosen game: (g - Go, c - Chess,  d - draughts)");
+            key = Console.ReadKey();
                 
-                Console.WriteLine("\n" + "Chosen game: {0}", key.KeyChar);
+            //Console.WriteLine("\n" + "Chosen game: {0}", key.KeyChar);
 
-                Facade facade = new Facade();
-                facade.createGame(key.KeyChar, user);
-            //} while (key.KeyChar != 'g' | key.KeyChar != 'c' | key.KeyChar != 'd');
+            Facade facade = new Facade();
+            facade.createGame(key.KeyChar, user);
             
             Console.ReadKey();
         }
