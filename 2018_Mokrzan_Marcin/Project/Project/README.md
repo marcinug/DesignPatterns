@@ -1,7 +1,7 @@
-# System zarz¹dzania pokojami gier planszowych.
+# System zarzÄ…dzania pokojami gier planszowych.
 
-## Cel
-Celem projektu by³o stworzenie systemu do tworzenia pokoi i zarz¹dzania dostêpnymi pokojami dla graczy. System pozwala na zalogowanie siê jako unikalny gracz goœæ. Goœæ posiada mo¿liwoœæ  stworzenia pokoju dla wybranej gry. Obecnie system zawiera parametry dla trzech gier : go, szachy, warcaby.  System kontroluje dostêp do pokoju na podstawie iloœci graczy.
+## Cel:
+Celem projektu byÅ‚o stworzenie systemu do tworzenia pokoi i zarzÄ…dzania dostÄ™pnymi pokojami dla graczy. System pozwala na zalogowanie siÄ™ jako unikalny gracz goÅ›Ä‡. GoÅ›Ä‡ posiada moÅ¼liwoÅ›Ä‡  stworzenia pokoju dla wybranej gry. Obecnie system zawiera parametry dla trzech gier : go, szachy, warcaby.  System kontroluje dostÄ™p do pokoju na podstawie iloÅ›ci graczy.
 
 ## Zastosowane wzorce projektowe:
 
@@ -9,19 +9,19 @@ Celem projektu by³o stworzenie systemu do tworzenia pokoi i zarz¹dzania dostêpny
 - Singleton
 Zastosowanie wzorca pozwala na utworzenie unikalnej instancji gracza.
 - Budowniczy
-Zastosowanie wzorca umo¿liwia stworzenie pokoju wraz ze zmian¹ jego parametrów. Zosta³y utworzone trzy typy budowniczego do ró¿nych pokoi.
+Zastosowanie wzorca umoÅ¼liwia stworzenie pokoju wraz ze zmianÄ… jego parametrÃ³w. ZostaÅ‚y utworzone trzy typy budowniczego do rÃ³Å¼nych pokoi.
 
 ### Wzorce Strukturalne:
--Kompozyt
-Wzorzec umo¿liwi³ stworzenie struktury drzewiastej pokoju. ród³em jest instancja gry, która odpowiada za przechowywanie pokoi. Zadaniem pokoi jest kontrola iloœci graczy 
+- Kompozyt
+Wzorzec umoÅ¼liwiÅ‚ stworzenie struktury drzewiastej pokoju. Å¹rÃ³dÅ‚em jest instancja gry, ktÃ³ra odpowiada za przechowywanie pokoi. Zadaniem pokoi jest kontrola iloÅ›ci graczy 
 
--Fasada
-Zastosowanie wzorca umo¿liwi³o ukrycie etapu inicjacji (tworzenia) pokoju i kontrolowanie statusu pokoju.
+- Fasada
+Zastosowanie wzorca umoÅ¼liwiÅ‚o ukrycie etapu inicjacji (tworzenia) pokoju i kontrolowanie statusu pokoju.
   
-### Wzorce Czynnoœciowe:
+### Wzorce CzynnoÅ›ciowe:
 - Stan
-Zastosowanie wzorca umo¿liwi³o wyznaczenie dwóch ró¿nych stanów dla pokoju: „otwarty” i „zamkniêty” oraz jego zmianê za pomoc¹ ¿¹dania (request).
+Zastosowanie wzorca umoÅ¼liwiÅ‚o wyznaczenie dwÃ³ch rÃ³Å¼nych stanÃ³w dla pokoju: â€otwartyâ€ i â€zamkniÄ™tyâ€ oraz jego zmianÄ™ za pomocÄ… Å¼Ä…dania (request).
 
 - Obserwator
-Zastosowanie wzorca umo¿liwi³o po³¹czenie obserwatora z pokojem i monitorowanie statusu pokoju.  Dziêki temu mo¿na reagowaæ na zmianê statusu.
+Zastosowanie wzorca umoÅ¼liwiÅ‚o poÅ‚Ä…czenie obserwatora z pokojem i monitorowanie statusu pokoju.  DziÄ™ki temu moÅ¼na reagowaÄ‡ na zmianÄ™ statusu.
 
