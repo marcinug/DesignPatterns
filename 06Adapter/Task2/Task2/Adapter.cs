@@ -8,7 +8,7 @@ namespace Task2
 {
     class Adapter : Adaptee
     {
-        public Func<string, string> Request;
+        public Func<int, string> Request;
 
         public Adapter(Target target)
         {
@@ -17,10 +17,14 @@ namespace Task2
 
         public Adapter(Adaptee adaptee)
         {
-            Request = delegate (string model)
+            Request = delegate (int model)
             {
                 return "The " + Match(model) + " is ready to use.";
             };
+        }
+        public void ChangeRequest(Func<int, string> ff)
+        {
+            Request = ff;
         }
     }
 }

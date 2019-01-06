@@ -10,9 +10,9 @@ namespace Task2
     {
         int frequency = 100;
 
-        public string PrepareDevice(string frequency)
+        public string PrepareDevice(int frequency)
         {
-            this.frequency = Int32.Parse(frequency) * 150;
+            this.frequency = frequency * 150;
             return "Wireless Device detected " + this.frequency + " GHz";
         }
         

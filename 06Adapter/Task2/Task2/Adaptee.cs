@@ -8,31 +8,38 @@ namespace Task2
 {
     class Adaptee
     {
-        public string Match(string model)
+        
+
+        
+
+        public string Match(int model)
         {
             string device = "";
-            if(string.Equals(model, "Dualshock4"))
-            {
-                InstallDrivers(model);
-                device = model;
+
+            if (model == 1) { 
+
+                device = "DualShock4";
+                InstallDrivers(device);
             }
-            else if(string.Equals(model, "XboxOneController"))
+            else if(model == 2)
             {
-                InstallDrivers(model);
-                device = model;
+                device = "XboxOneController";
+                InstallDrivers(device);
+                
             }
-            else if(string.Equals(model, "Logitech"))
+            else if(model == 3)
             {
-                InstallDrivers(model);
-                device = model;     
+                device = "Logitech";
+                InstallDrivers(device);
+                     
             }
 
             return device;
         }
 
-        private void InstallDrivers(string model)
+        private void InstallDrivers(string device)
         {
-            Console.WriteLine("Installing drivers for your: " + model);
+            Console.WriteLine("Installing drivers for your: " + device);
         }
     }
 }
